@@ -106,5 +106,34 @@
                              &trans    &trans     &trans             &trans     &trans           &trans
             >;
         };
+
+        2 {
+
+        bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+        >;
+    };
+
+    1 {
+
+    bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+    >;
+};
+
+0 {
+          bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+          >;
+        };
     };
 };
