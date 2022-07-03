@@ -139,10 +139,10 @@
 
         KONG {
             bindings = <
-    &kp     &kp     &kp     &kp     &kp     &kp             &kp     &kp     &kp     &kp     &kp     &kp
-    &kp     &kp     &kp     &kp     &kp     &kp             &kp     &kp     &kp     &kp     &kp     &kp
-    &kp     &kp     &kp     &kp     &kp     &kp             &kp     &kp     &kp     &kp     &kp     &kp
-                            &kp     &kp     &kp             &kp     &kp     &kp
+  &none   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
+                          &none   &none   &none           &none   &none   &none
             >;
         };
     };
