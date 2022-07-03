@@ -27,6 +27,11 @@
 
     combos {
         compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
