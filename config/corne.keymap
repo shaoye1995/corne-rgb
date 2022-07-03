@@ -143,5 +143,23 @@
                                             &none         &none   &none           &none   &none   &none
             >;
         };
+
+        LOCK {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        GAME {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
     };
 };
