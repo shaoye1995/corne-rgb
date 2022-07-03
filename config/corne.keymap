@@ -10,6 +10,8 @@
 #define SETTING  3
 #define MARKDOWN 4
 #define MEDIA    5
+#define LOCK     6
+#define GAME     7
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -145,6 +147,7 @@
         };
 
         LOCK {
+            label = "LOCK";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
@@ -154,6 +157,7 @@
         };
 
         GAME {
+            label = "GAME";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
