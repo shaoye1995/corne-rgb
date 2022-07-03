@@ -47,6 +47,16 @@
             bindings = <&kp DOWN>;
             key-positions = <31 32>;
         };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <18 19>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
