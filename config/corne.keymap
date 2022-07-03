@@ -44,15 +44,6 @@
             >;
         };
 
-        raise {
-            bindings = <
- &kp EXCL     &kp DOT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET            &kp SQT  &kp LPAR    &kp UP   &kp RPAR     &none  &kp BSPC
- &kp AMPS    &kp STAR  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER            &kp DQT  &kp LEFT    &kp N1  &kp RIGHT  &kp LBRC  &kp RBRC
- &kp FSLH  &kp TILDE2   &kp BSLH  &kp PIPE   &kp SEMI        &kp             &kp LT    &kp GT  &kp DOWN      &none  &kp LBKT  &kp RBKT
-                                    &trans     &trans     &trans          &kp ENTER     &mo 3     &mo 2
-            >;
-        };
-
         lower {
             bindings = <
         &kp ESC     &kp AT  &kp N1  &kp N2  &kp N3  &kp EQUAL           &kp F1   &kp F2  &kp F3  &kp F4   &kp F5  &kp BSPC
