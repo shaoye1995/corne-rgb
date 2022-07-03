@@ -63,12 +63,6 @@
             key-positions = <20 21>;
             timeout-ms = <50>;
         };
-
-        to0 {
-            bindings = <&to 0>;
-            key-positions = <14 15 16 18 19 20>;
-            timeout-ms = <50>;
-        };
     };
 
     macros {
