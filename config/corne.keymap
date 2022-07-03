@@ -83,14 +83,10 @@
     macros {
         JIETU: JIETU {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "JIETU";
             #binding-cells = <0>;
-            bindings =
-                <&kp RCTRL>,
-                <&macro_wait_time 10>,
-                <&kp RIGHT_ALT>,
-                <&macro_wait_time 10>,
-                <&kp A>;
+            bindings = <&kp RCTRL &kp RIGHT_ALT &kp A>;
+            wait-ms = <10>;
         };
     };
 
