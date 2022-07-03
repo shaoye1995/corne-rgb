@@ -42,6 +42,11 @@
             bindings = <&kp UP>;
             key-positions = <7 8>;
         };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
