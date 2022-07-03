@@ -37,6 +37,11 @@
             bindings = <&kp ESC>;
             key-positions = <12 13>;
         };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
