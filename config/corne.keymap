@@ -75,18 +75,24 @@
 
         to0 {
             bindings = <&to 0>;
-            key-positions = <14 15 16 18 19 20>;
+            key-positions = <14 15 16 19 20 21>;
             timeout-ms = <50>;
+        };
+
+        JIETU {
+            bindings = <&JIETU>;
+            key-positions = <19 5>;
         };
     };
 
     macros {
         JIETU: JIETU {
             compatible = "zmk,behavior-macro";
-            label = "JIETU";
+            label = "new_macro";
             #binding-cells = <0>;
-            bindings = <&kp RCTRL &kp RIGHT_ALT &kp A>;
-            wait-ms = <10>;
+            bindings =
+                <&macro_press>,
+                <&kp RCTRL &kp LEFT_ALT &kp A>;
         };
     };
 
