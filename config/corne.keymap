@@ -73,12 +73,6 @@
             timeout-ms = <50>;
         };
 
-        to0 {
-            bindings = <&to 0>;
-            key-positions = <14 15 16 19 20 21>;
-            timeout-ms = <50>;
-        };
-
         JIETU {
             bindings = <&JIETU>;
             key-positions = <19 5>;
