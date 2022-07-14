@@ -65,12 +65,14 @@
         left {
             bindings = <&kp LEFT>;
             key-positions = <18 19>;
+            layers = <0 2>;
             timeout-ms = <50>;
         };
 
         right {
             bindings = <&kp RIGHT>;
             key-positions = <20 21>;
+            layers = <0 2>;
             timeout-ms = <50>;
         };
     };
