@@ -83,6 +83,12 @@
                 <&macro_press>,
                 <&kp RCTRL &kp LEFT_ALT &kp A>;
         };
+        FUXUAN: FUXUAN {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <>;
+        };
     };
 
     keymap {
