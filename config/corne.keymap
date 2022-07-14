@@ -90,7 +90,7 @@
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
-            bindings = <&kp PLUS &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET>;
+            bindings = <&kp PLUS &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SPACE>;
         };
         GUANJIANCI: GUANJIANCI {
             compatible = "zmk,behavior-macro";
