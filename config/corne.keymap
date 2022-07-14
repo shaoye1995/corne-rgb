@@ -84,6 +84,12 @@
                 <&macro_press>,
                 <&kp RCTRL &kp LEFT_ALT &kp A>;
         };
+        RENWU: RENWU {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET>;
+        };
     };
 
     keymap {
@@ -132,7 +138,7 @@
         MARKDOWN {
             label = "MARKDOWN";
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &RENWU  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans   &to 0          &trans  &trans  &trans
