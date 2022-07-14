@@ -83,30 +83,6 @@
                 <&macro_press>,
                 <&kp RCTRL &kp LEFT_ALT &kp A>;
         };
-        RENWU: RENWU {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS &kp SPACE &kp LBKT &kp RBKT>;
-        };
-        SHIPIN: SHIPIN {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <>;
-        };
-        YINPIN: YINPIN {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <>;
-        };
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <>;
-        };
     };
 
     keymap {
@@ -155,7 +131,7 @@
         MARKDOWN {
             label = "MARKDOWN";
             bindings = <
- &RENWU  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans   &to 0          &trans  &trans  &trans
