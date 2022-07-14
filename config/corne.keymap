@@ -92,6 +92,12 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET>;
         };
+        GUANJIANCI: GUANJIANCI {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp RBKT>;
+        };
     };
 
     keymap {
@@ -140,10 +146,10 @@
         MARKDOWN {
             label = "MARKDOWN";
             bindings = <
- &trans  &RENWU  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans   &to 0          &trans  &trans  &trans
+ &trans  &RENWU  &GUANJIANCI  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans  &trans   &to 0          &trans  &trans  &trans
             >;
         };
 
