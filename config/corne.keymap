@@ -87,7 +87,7 @@
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp MINUS &kp SPACE &kp LBKT &kp RBKT>;
         };
         SHIPIN: SHIPIN {
             compatible = "zmk,behavior-macro";
